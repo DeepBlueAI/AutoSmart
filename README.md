@@ -1,5 +1,5 @@
 ![Alt text](https://www.deepblueai.com/usr/deepblue/v3/images/logo.png "DeepBlue")  
-[![license](https://img.shields.io/cran/l/devtools.svg)](https://github.com/keras-team/keras/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-GPL%203.0-green.svg)](https://github.com/keras-team/keras/blob/master/LICENSE)
 
 ![license](https://img.shields.io/cran/l/devtools.svg)(https://github.com/DeepBlueAI/AutoSmart/blob/master/LICENSE)
 # The introduction of AutoSmart
