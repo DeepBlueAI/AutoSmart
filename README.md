@@ -1,7 +1,7 @@
 ![Alt text](https://www.deepblueai.com/usr/deepblue/v3/images/logo.png "DeepBlue")
 
 # The introduction of AutoSmart
-The 1st solution for KDD Cup AutoML Track
+The 1st place solution for KDD Cup 2019 AutoML Track
 
 # How to use
 This is the link to the competition：https://codalab.lri.fr/competitions/559
