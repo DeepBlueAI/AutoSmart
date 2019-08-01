@@ -16,7 +16,7 @@ setuptools.setup(
         "hyperopt",
         "lightgbm",
         "joblib",
-        "pandas==0.24.2",
+        "pandas",
         ],
     ext_modules = cythonize("ac.pyx"),
     classifiers=[
