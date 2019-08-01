@@ -41,7 +41,7 @@ There are 4 types of features, indicated by "cat", "num", "multi-cat", and "time
 
 - **cat**: categorical feature, an integer
 - **num**: numerical Feature, a real value.
-- **multi**-cat: multi-value categorical Feature: a set of integers, split by the comma. The size of the set is not fixed and can be different for each instance. For example, topics of an article, words in a title, items bought by a user and so on.
+- **multi-cat**: multi-value categorical Feature: a set of integers, split by the comma. The size of the set is not fixed and can be different for each instance. For example, topics of an article, words in a title, items bought by a user and so on.
 - **time**: time feature, an integer that indicates the timestamp.
 
 
@@ -64,7 +64,7 @@ Descriptions of the keys in info:
     - There are 4 types of features, indicated by "cat", "num", "multi-cat", and "time", respectively:
         - **cat**: categorical feature, an integer
         - **num**: numerical Feature, a real value.
-        - **multi**-cat: multi-value categorical Feature: a set of integers, split by the comma. The size of the set is not fixed and can be different for each instance. For example, topics of an article, words in a title, items bought by a user and so on.
+        - **multi-cat**: multi-value categorical Feature: a set of integers, split by the comma. The size of the set is not fixed and can be different for each instance. For example, topics of an article, words in a title, items bought by a user and so on.
         - **time**: time feature, an integer that indicates the timestamp.
 
 - **relations**: a list that stores table relations in the dataset. Each relation can be represented as an ordered table pair (**table_A**, **table_B**), a key column **key** that appears in both tables and acts as the pivot of table joining, and a relation type **type**. Different relation types will be introduced shortly.
