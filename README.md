@@ -5,6 +5,7 @@ The 1st place solution for KDD Cup 2019 AutoML Track
 
 # How to install
 ```python
+pip install Cython
 pip install AutoSmart
 ```
 # How to use

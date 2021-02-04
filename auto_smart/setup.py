@@ -6,7 +6,7 @@ from Cython.Build import cythonize
 
 setuptools.setup(
     name='AutoSmart',
-    version='0.0.1',
+    version='0.0.2',
     author='DeepBlueAI',
     author_email='1229991666@qq.com',
     url='https://github.com/DeepBlueAI/AutoSmart',
@@ -14,7 +14,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         "hyperopt",
-        "lightgbm",
+        "lightgbm==2.3.0",
         "joblib",
         "pandas",
         ],

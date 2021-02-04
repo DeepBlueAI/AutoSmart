@@ -68,7 +68,7 @@ class TimeNum(Feat):
             feat_type = CONSTANT.NUMERICAL_TYPE
             new_col = FeatContext.gen_feat_name(namespace,self.__class__.__name__,new_col,feat_type)
             
-            ss = df[col].astype('int64')/1000000
+            ss = (df[col]-pd.Timestamp("1970-01-01")) // pd.Timedelta('1s')
             ss[ss<0] = np.nan
             min_time = ss.min()
             ss = ss-min_time

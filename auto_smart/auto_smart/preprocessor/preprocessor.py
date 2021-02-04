@@ -94,7 +94,7 @@ class GeneralPreprocessor(Preprocessor):
                     feat_type = CONSTANT.NUMERICAL_TYPE
                     new_col = FeatContext.gen_feat_name(namespace,self.__class__.__name__,new_col,feat_type)
                     
-                    ss = df[col].astype('int64')/1000000
+                    ss = (df[col] - pd.to_datetime('1970-01-01')).dt.total_seconds()
                     ss[ss<0] = np.nan
                     min_time = ss.min()
                     ss = ss-min_time
