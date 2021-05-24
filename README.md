@@ -4,10 +4,15 @@
 The 1st place solution for KDD Cup 2019 AutoML Track
 
 # How to install
+
+Requirements: [Cython with C compiler](https://docs.cython.org/en/latest/src/quickstart/install.html).
+
+clone or download autosmart package,  run 
+
 ```python
-pip install Cython
-pip install AutoSmart
+python setup.py install 
 ```
+
 # How to use
 ```python
 import auto_smart
